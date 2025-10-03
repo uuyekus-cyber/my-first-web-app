@@ -1,3 +1,9 @@
+h1{
+    font-family:'Klee One', cursive;
+    text-align: center;
+    font-size:50px;
+}
+
 ul {
   list-style: none;
 }
@@ -5,10 +11,43 @@ ul {
 li{
     float:left;
     padding-left :60px;
-    padding-top:10px;
+    padding-top:0px;
+    margin-top:-20px;
+}
+
+.top{
+    padding-left:0px;
 }
 
 body p{
-    float:left;
+
     padding-top:30px;
+}
+
+.header{
+    background-color: sienna;
+    padding:15px 0 15px 0;
+ 
+}
+
+.headerlist{
+ 
+    padding:30px 0 30px 0;
+    margin-top:0px;
+    border-bottom:1px solid black;
+    border: top 1px solid black;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    padding-left:10px;
+}
+
+h3{
+    padding-left:10px;
 }
